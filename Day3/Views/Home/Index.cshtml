@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<head>
+
+</head>
+<body>
+    @TempData["Id"]
+    <a href="/Home/ThankYou/@TempData["Id"]" class="btn">Thank You</a>
+</body>
